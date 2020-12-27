@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fff8dc;
+    font-family: Aldrich;
+}
+
+.dropdown {
+    background-color: darkslategrey;
+    text-align: center;
+    color: #fff8dc;
+    height: 60px;
+}
+
+.dropdown ul {
+    display: inline-flex;
+    list-style-type: none;
+    color: #fff8dc;
+}
+
+.dropdown ul li {
+    width: 150px;
+    margin: 25px;
+}
+
+.dropdown ul li a{
+    text-decoration: none;
+    color: #fff8dc;
+}
+
+
+.dropdown ul li:hover {
+    background-color: darkgrey;
+    border-radius: 3px;
+}
+
+.about,
+.magazine,
+.contests,
+.submit,
+.online {
+    display: none;
+}
+
+.dropdown ul li:hover .menu {
+   display: block;
+   position: absolute;
+   margin-top: 4px;
+   margin-left: -15px;
+   background-color: #2f4f4f;
+}
+
+.dropdown ul li:hover .menu ul {
+    display: block;
+    margin: 10px;
+}
+
+.dropdown ul li:hover .menu ul li {
+    width: 150px;
+    padding: 10px;
+}
