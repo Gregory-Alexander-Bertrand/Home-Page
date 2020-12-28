@@ -35,23 +35,20 @@ body {
 
 .dropdown ul li:hover {
     background-color: darkgrey;
-    border-radius: 3px;
+    border-radius: 25px;
 }
 
-.about,
-.magazine,
-.contests,
-.submit,
-.online {
+ul ul {
     display: none;
 }
 
 .dropdown ul li:hover .menu {
    display: block;
    position: absolute;
-   margin-top: 4px;
+   margin-top: 17px;
    margin-left: -15px;
    background-color: #2f4f4f;
+   border-radius: 25px;
 }
 
 .dropdown ul li:hover .menu ul {
@@ -62,4 +59,12 @@ body {
 .dropdown ul li:hover .menu ul li {
     width: 150px;
     padding: 10px;
+}
+
+
+section {
+    text-align: center;
+    padding-top: 250px;
+    color: #2f4f4f;
+    font-size: 65px;
 }
